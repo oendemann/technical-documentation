@@ -1,6 +1,6 @@
 # technical-documentation
 
-A webpage that recreates documentation for python with text pulled directly from https://oxylabs.io/blog/python-syntax-errors and https://wiki.python.org/moin/BeginnersGuide.
+A webpage that recreates documentation for python.
 
 **Live-Demo:** [https://oendemann.github.io/technical-documentation/#Programmers]
 
