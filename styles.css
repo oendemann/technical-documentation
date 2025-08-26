@@ -1,0 +1,181 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  background-color: #4F4F4F;
+  font-family: Calibri;
+}
+
+main {
+  margin-left: 200px;
+  padding: 20px;
+  color: #BABABA;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  width:  200px;
+  left: 0;
+  top: 0;
+  padding-top: 10px;
+  border-right: 3px solid white;
+} 
+
+@media (max-width: 1000px) {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  main {
+    padding-top: 150px;
+    margin: 0
+  }
+
+  h1 {
+    padding-bottom: 10px;
+  }
+
+  h1, nav {
+    border-bottom: 1.5px solid white;
+  }
+
+  nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  nav {
+    position: fixed;
+    max-height: 150px;
+    text-align: center;
+    line-height: 30px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: auto;
+    border-bottom: 2px solid white;
+  }
+
+  #Download-nav {
+    border-top: none !important;
+    margin-top: -20px;
+  }
+
+  h4 {
+    border-top: 1px dashed white !important;
+  }
+}
+
+
+h1, h2 {
+  color: #DBDBDB;
+  font-size: 25px;
+  font-weight: 900;
+  font-family: Times New Roman, Calibri;
+  padding-left: 5px;
+} 
+
+h2 {
+  margin: 15px 0 -10px 0;
+  padding-left: 0;
+}
+
+
+h4 {
+  line-height: 55px;
+  font-size: 20px;
+  color: #BABABA;
+  border-top: 1.5px solid white;
+  margin-bottom: -20px;
+  padding-left: 5px;
+}
+
+a {
+  color: #4F4F4F;
+}
+
+
+h4:hover {
+  color: #A3B6FF;
+} 
+
+a:hover {
+  color: #4F4F4F;
+}
+
+p {
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+li, ul {
+  font-size: 18px;
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+h3 {
+  margin-bottom: -15px;
+  font-size: 20px;
+  color: #DBDBDB;
+}
+
+.example {
+  border: 1.25px solid white;
+  padding: 15px;
+  background-color: #A8A8A8;
+  color: black;
+}
+
+.link, .link > a {
+  display: block;
+  color: #DBDBDB;
+  font-weight: normal;
+}
+
+.link > a:hover, .link-list > a:hover{
+  color: #141414;
+}
+
+.link-list > a {
+  color: #DBDBDB;
+}
+
+pre, code {
+  background-color: #A8A8A8;
+  color: black;
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+pre {
+  border: 1.25px solid white;
+  margin-top: 15px;
+  max-width: 100%;
+  min-width: 360px;
+}
+
+code {
+  display: block;
+  flex-wrap: wrap;
+  margin: -10px 15px -25px 20px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.numbered-bullet {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.below-code {
+  margin-top: 0;
+}

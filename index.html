@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="navigator">
+      <nav id="navbar">
+        <header>
+          <h1>Python Technical Documentation</h1>
+        </header>
+        <a class="nav-link" href="#Download">
+          <h4 id="Download-nav">Download</h4>
+        </a>
+        <a class="nav-link" href="#Examples">
+          <h4 id="Examples-nav">Examples</h4>
+        </a>
+        <a class="nav-link" href="#Help">
+          <h4 id="Help-nav">Help</h4>
+        </a>
+        <a class="nav-link" href="#Mathematics">
+          <h4 id="Mathematics-nav">Mathematics</h4>
+        </a>
+        <a class="nav-link" href="#Non-Programmers">
+          <h4 id="Non-Programmers-nav">Non-Programmers</h4>
+        </a>
+        <a class="nav-link" href="#Overview">
+          <h4 id="Overview-nav">Overview</h4>
+        </a>
+        <a class="nav-link" href="#Programmers">
+          <h4 id="Programmers-nav">Programmers</h4>
+        </a>
+        <a class="nav-link" href="#Common_Syntax_Errors">
+          <h4 id="Common_Syntax_Errors-nav">Common Syntax Errors</h4>
+        </a>
+        <a class="nav-link" href="#Reference">
+          <h4 id="Reference-nav">Reference</h4>
+        </a>
+      </nav>
+    </section>
+    <main id="main-doc">
+      <section class="main-section" id="Download">
+        <header>
+          <h2>Download</h2>
+        </header>
+        <section class="body-section">
+          <p>On many systems Python comes pre-installed, you can try running the python command to start the Python interpreter to check and see if it is already installed. On windows you can try the py command which is a launcher which is more likely to work. If it is installed you will see a response which will include the version number, for example:</p>
+          <p class="example">Python 3.9.6 (tags/v3.9.6:db3ff76, Jun 28 2021, 15:26:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+If you don't see this, you will need to install Python on your system.</p>
+          <p>If the version number is Python 2.x.y (where x and y are any number) you are using Python 2 which is no longer supported and is not a good choice for development. You can try running python3 to see if there is also a Python 3.x.y version installed, if not you'll want to install the latest version of Python. </p>
+          <p> If you do not have Python installed or need a newer version you can go to:</p>
+          <p class="link"><a target="_blank" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></p>
+        </section>
+      </section>
+      <section class="main-section" id="Examples">
+        <header>
+          <h2>Examples</h2>
+        </header>
+        <section class="body-section">
+          <p>When you're learning, small examples can be very helpful.</p>
+          <ul>
+            <li class="link-list"><a target="_blank" href="https://web.archive.org/web/20201017142948/http://effbot.org/zone/librarybook-index.htm">The Python Standard Library</a> (archived copy), an electronically published book by Fredrik Lundh, examines most of the modules in Python's standard library, describing what the module does and giving a short example of its use. Note that this book is now relatively old and so misses a lot of the developments of the last two decades.</li>
+            <li class="link-list">The <a target="_blank" href="https://code.activestate.com/recipes/langs/python/">Python Recipes</a>, from ActiveState, is a very large collection of code snippets, some elementary and some advanced.</li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Help">
+        <header>
+          <h2>Help</h2>
+        </header>
+        <section class="body-section">
+          <p>If you experience problems using Python, your first step should be to check the documentation.</p>
+          <ul>
+            <li class="link-list">The <a target="_blank" href="https://www.python.org/doc/versions/">Python documentation</a> describes the language and the standard modules in detail.</li>
+            <li class="link-list">Many common questions are answered in the <a target="_blank" href="the Frequently Asked Question lists">Frequently Asked Question lists</a>.</li>
+            <li class="link-list">If you suspect you've discovered a bug in the Python core, search the <a target="_blank" href="https://bugs.python.org/">Python Bug Tracker</a> to find out if it's already been reported.</li>
+          </ul>
+          <p>If the documentation doesn't help, here's how to get help from real people:</p>
+          <ul>
+            <li class="link-list">comp.lang.python Post to the Python newsgroup, renowned for its friendly and helpful atmosphere. See <a target="_blank" href="https://www.python.org/community/lists/#comp-lang-python">the guide to Python mailing lists</a> for more information.</li>
+            <li class="link-list">tutor mailing list A moderate-volume mailing list for folks who want to ask questions while learning computer programming with Python. See <a target="_blank" href="https://www.python.org/community/lists/#comp-lang-python">the guide to Python mailing lists</a> for more information.</li>
+            <li class="link-list">help@python.org The Python help desk. You can ask a group of knowledgeable volunteers questions about all your Python problems. See <a target="_blank" href="https://www.python.org/community/lists/#comp-lang-python">the guide to Python mailing lists</a> for more information.</li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Mathematics">
+        <header>
+          <h2>Mathematics</h2>
+        </header>
+        <section class="body-section">
+          <p class="link-list">Read <a target="_blank" href="https://www.python.org/community/lists/#comp-lang-python">the official tutorial</a> or <a target="_blank" href="https://www.cmi.ac.in/~madhavan/courses/prog2-2012/docs/diveintopython3/">a book</a> if you have no experience with Python.</p>
+          <ul>
+            <li>be aware that there are accuracy issues with floating-point arithmetic</li>
+            <li class="link-list">review <a target="_blank" href="https://www.tutorialspoint.com/python/python_operators.htm>">the operators</a></li>
+            <li>be aware of the built-in functions: all, any, divmod, map, max, min, print, reverse, round, sum</li>
+            <li>be aware of the included modules:</li>
+            <li class="link-list">read the <a target="_blank" href="https://docs.python.org/3/tutorial/controlflow.html">control flow section</a> of the <a target="_blank" href="https://docs.python.org/3/tutorial/index.html">official tutorial</a></li>
+            <li class="link-list">read about <a target="_blank" href="https://docs.python.org/3.6/tutorial/datastructures.html#list-comprehensions">list comprehensions</a></li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Non-Programmers">
+        <header>
+          <h2>Non-Programmers</h2>
+        </header>
+        <section class="body-section">
+          <p>If you've never programmed before, the tutorials on this page are recommended for you; they don't assume that you have previous experience. If you have programming experience, also check out the BeginnersGuide/Programmers page.</p>
+          <h3>Books</h3>
+          <p>Each of these books can be purchased online but is also available as free textual, website, or video content.</p>
+          <ul>
+            <li>Automate the Boring Stuff with Python - Practical Programming for Total Beginners by Al Sweigart</li>
+            <li>How To Think Like a Computer Scientist by Allen Downey</li>
+            <li>Making Games with Python & Pygame by Al Sweigart</li>
+            <li>Python One-Liners by Christian Mayer</li>
+          </ul>
+          <h3>Interactive Courses</h3>
+          <ul>
+            <li class="link-list"><a target="_blank" href="https://python.land/python-tutorial">A beginner-friendly and free Python tutorial</a> with interactive code examples, explaining the Python language in an easy-to-understand way.</li>
+            <li class="link-list"><a target="_blank" href="https://www.codecademy.com/search?query=python">Codecademy</a> (Python)</li>
+            <li class="link-list"><a target="_blank" href="https://www.datacamp.com/courses/intro-to-python-for-data-science">DataCamp Python Tutorial</a> Unlike most other Python tutorials, this 4 hour tutorial by <a target="_blank" href="https://www.datacamp.com/">DataCamp</a> focuses on Python specifically for Data Science. It has 57 interactive exercises and 11 videos.</li>
+            <li class="link-list"><a target="_blank" href="https://runestone.academy/ns/books/published/thinkcspy/index.html">How to Think Like a Computer Scientist: Interactive Edition</a> is an interactive reimagination of Elkner, Downey and Meyer's book with visualizations and audio explanations.</li>
+            <li class="link-list"><a target="_blank" href="https://learn-python.adamemery.dev/">Learn Python</a> - A no install Python course with interactive exercises powered by Pyodide.</li>
+          </ul>
+          <h3>Tutorials and Websites</h3>
+          <ul>
+            <li class="link-list"><a target="_blank" href="https://python.swaroopch.com/">A Byte of Python</a>, by Swaroop C.H., is also an introductory text for people with no previous programming experience.</li>
+            <li class="link-list"><a target="_blank" href="http://www.alan-g.me.uk/l2p2/">Learning to Program</a> An introduction to programming for those who have never programmed before, by Alan Gauld. It introduces several programming languages but has a strong emphasis on Python. (Python 2 and 3)</li>
+            <li class="link-list">The <a target="_blank" href="https://yasoob.me/">Python tips</a> blog includes Python tips and tutorials for beginners and professional programmers.</li>
+            <li class="link-list"><a target="_blank" href="https://thepythonguru.com/">The Python Guru</a> A beginner-friendly guide for aspiring programmers.</li>
+            <li>QuizCure: A Python Learning Platform Contains a list of Commonly asked Python Questions and Answers with Examples.</li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Overview">
+        <header>
+          <h2>Overview</h2>
+        </header>
+        <section class="body-section">
+          <p>Python is a clear and powerful object-oriented programming language, comparable to Perl, Ruby, Scheme, or Java.</p>
+          <p>Some of Python's notable features:</p>
+          <ul>
+            <li>Uses an elegant syntax, making the programs you write easier to read.</li>
+            <li>Is an easy-to-use language that makes it simple to get your program working. This makes Python ideal for prototype development and other ad-hoc programming tasks, without compromising maintainability.</li>
+            <li>Comes with a large standard library that supports many common programming tasks such as connecting to web servers, searching text with regular expressions, reading and modifying files.
+</li>
+            <li>Python's interactive mode makes it easy to test short snippets of code. There's also a bundled development environment called IDLE.</li>
+            <li>Is easily extended by adding new modules implemented in a compiled language such as C or C++.</li>
+            <li>Can also be embedded into an application to provide a programmable interface.</li>
+            <li class="link-list">Runs anywhere, including <a target="_blank" href="https://www.python.org/downloads/macos/">Mac OS X</a>, <a target="_blank" href="https://www.python.org/downloads/windows/">Windows</a>, <a target="_blank" href="https://docs.python.org/3/using/unix.html">Linux</a>, and <a target="_blank" href="https://docs.python.org/3/using/unix.html">Unix</a>, with unofficial builds also available for Android and iOS.</li>
+            <li class="link-list">Is free software in two senses. It doesn't cost anything to download or use Python, or to include it in your application. Python can also be freely modified and re-distributed because while the language is copyrighted it's available under an <a target="_blank" href="https://docs.python.org/3/license.html">open-source license</a>.</li>
+          </ul>
+          <p>Some programming-language features of Python are:</p>
+          <ul>
+            <li>A variety of basic data types are available: numbers (floating point, complex, and unlimited-length long integers), strings (both ASCII and Unicode), lists, and dictionaries.</li>
+            <li>Python supports object-oriented programming with classes and multiple inheritances.</li>
+            <li>Code can be grouped into modules and packages.</li>
+            <li>The language supports raising and catching exceptions, resulting in cleaner error handling.</li>
+            <li>Data types are strongly and dynamically typed. Mixing incompatible types (e.g. attempting to add a string and a number) causes an exception to be raised, so errors are caught sooner.</li>
+            <li>Python contains advanced programming features such as generators and list comprehensions.</li>
+            <li>Python's automatic memory management frees you from having to manually allocate and free memory in your code.</li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Programmers">
+        <header>
+          <h2>Programmers</h2>
+        </header>
+        <section class="body-section">
+          <p>The resources on this page aim at people with previous experience with other programming languages (C, Perl, Lisp, Visual Basic, etc.). Also of potential interest are such related Beginners Guides as BeginnersGuide/Overview and BeginnersGuide/NonProgrammers, and the tips in MovingToPythonFromOtherLanguages.</p>
+          <h3>Resources</h3>
+          <ul>
+            <li class="link-list"><a target="_blank" href="https://programiz.pro/learn/master-python">A beginner-friendly Python course</a> with interactive, bite-size lessons, and over 100 challenges.</li>
+            <li class="link-list"><a target="_blank" href="https://checkio.org/">CheckiO interactive learning resource</a> Creative way to improve Python skills with interesting tasks, it also supports Python 3|2.</li>
+            <li>Dive Into Python 3 by Mark Pilgrim.</li>
+            <li class="link-list"><a target="_blank" href="https://techbeamers.com/python-tutorial-step-by-step/">Learn Python Step by Step</a> - Start learning python from the basics to pro-level and attain proficiency.</li>
+            <li class="link-list"><a target="_blank" href="https://python-course.eu/">Python Course</a> - This online Python course is aiming at beginners and with advanced topics at experienced programmers as well.</li>
+            <li class="link-list"><a target="_blank" href="https://docs.python.org/3/tutorial/">Python Tutorial</a> This tutorial is part of Python's documentation set and is updated with each new release.</li>
+            <li class="link-list"><a target="_blank" href="https://pythonspot.com/">Python Programming Tutorials</a> Python programming tutorials.</li>
+            <li class="link-list"><a target="_blank" href="https://tutswiki.com/pandas-cookbook/">Pandas Cookbook</a> A newbie friendly introduction to pandas with real-life examples.</li>
+            <li class="link-list"><a target="_blank" href="https://www.scaler.com/topics/python/">Learn Python Programming</a> Easy to understand Python tutorial explained with examples for beginners and professionals alike.</li>
+          </ul>
+        </section>
+      </section>
+      <section class="main-section" id="Common_Syntax_Errors">
+        <header>
+          <h2>Common Syntax Errors</h2>
+        </header>
+        <section class="body-section">
+          <h3>Misplaced, missing, or mismatched punctuation</h3>
+          <p><span class="numbered-bullet">1. </span>Ensure that parentheses (), brackets [], and braces {} are properly closed. When left unclosed, the Python interpreter treats everything following the first parenthesis, bracket, or brace as a single statement. Take a look at this web scraping code sample that sends parsing instructions to our web scraping tool:</p>
+          <pre>
+            <code>
+payload = {
+    "source": "universal",
+    "url": "https://sandbox.oxylabs.io/products/1",
+    "parse": True,
+    "parsing_instructions": {
+        "title": {
+            "_fns": [
+                {
+                    "_fn": "css_one",
+                    "_args": ["h2"]
+                }
+            ]
+        }
+    }
+
+# Error message
+  File "&ltstdin&gt", line 1
+    payload = {
+              ^
+SyntaxError: '{' was never closed
+            </code>
+          </pre>
+          <p class="below-code">At first glance, it may look like the payload was closed with braces, but the Python interpreter raises a syntax error that says otherwise. You can fix the error by closing the payload:</p>
+          <pre>
+            <code>
+payload = {
+    "source": "universal",
+    "url": "https://sandbox.oxylabs.io/products/1",
+    "parse": True,
+    "parsing_instructions": {
+        "title": {
+            "_fns": [
+                {
+                    "_fn": "css_one",
+                    "_args": ["h2"]
+                }
+            ]
+        }
+    }
+} # Add the missing brace
+            </code>
+          </pre>
+          <p class="below-code"><span class="numbered-bullet">2. </span>Make sure you close a string with proper quotes. For example, if you started your string with a single quote ‘, then use a single quote again at the end of your string. The below code snippet illustrates this:</p>
+          <p>This example has two errors, but as you can see, the interpreter shows only the first syntax error. It pinpoints the issue precisely, which is the use of a single quote at the start, and a double quote at the end to close the string.</p>
+          <p>The second error is in the third example URL, which isn’t closed with a quotation mark at all. The syntactically correct version would look like this:</p>
+          <pre>
+            <code>
+list_of_URLs = (
+    'https://example.com/1',
+    'https://example.com/2',
+    'https://example.com/3'
+)
+print(list_of_URLs)
+            </code>
+          </pre>
+          <p class="below-code">When the string content itself contains quotation marks, use single ‘, double “, and/or triple ‘’’ quotes to specify where the string starts and ends. For instance:</p>
+          <pre>
+            <code>
+print("In this example, there's a "quote within 'a quote'", which we separate with double and single quotes.")
+
+# Error message
+  File "&ltstdin&gt", line 1
+    print("In this example, there's a "quote within 'a quote'", which we separate with double and single quotes.")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+            </code>
+          </pre>
+          <p class="below-code">The interpreter shows where the error occurred, and you can see that the carets end within the second double quotation mark. To fix the syntax error, you can wrap the whole string in triple quotes (either ’’’ or “””):</p>
+          <pre>
+            <code>
+print("""In this example, there's a "quote within 'a quote'", which we specify with double and single quotes.""")
+            </code>
+          </pre>
+        </section>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>
+          <h2 id="h2-reference">Reference</h2>
+        </header>
+        <p class="link-list">All of the documentation from this page is taken directly from <a target="_blank" href="https://wiki.python.org/moin/BeginnersGuide">https://wiki.python.org/moin/BeginnersGuide</a></p>
+      </section>
+    </main>
+  </body>
+</html>
