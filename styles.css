@@ -43,10 +43,6 @@ nav {
     border-bottom: 1.5px solid white;
   }
 
-  nav::-webkit-scrollbar {
-    display: none;
-  }
-
   nav {
     position: fixed;
     max-height: 150px;
