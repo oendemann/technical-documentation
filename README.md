@@ -12,7 +12,7 @@ A webpage that recreates documentation for python.
 
 ## About The Page 
 
-A simple webpage that redesigns some python technical documentation as found at [wiki.python.org]https://wiki.python.org/moin/BeginnersGuide for a freeCodeCamp project per the responsive web design course requirements. Also per requirements, I implemented code elements as found from [oxylabs.io]https://oxylabs.io/blog/python-syntax-errors, and created different responsive features, such as navbar redesign for different resolutions and link behaviors.
+A simple webpage that redesigns some python technical documentation as found at [wiki.python.org](https://wiki.python.org/moin/BeginnersGuide) for a freeCodeCamp project per the responsive web design course requirements. Also per requirements, I implemented code elements as found from [oxylabs.io](https://oxylabs.io/blog/python-syntax-errors), and created different responsive features, such as navbar redesign for different resolutions and link behaviors.
 
 ---
 
@@ -31,5 +31,5 @@ A simple webpage that redesigns some python technical documentation as found at 
 ## Acknowledgments
 
 * Project idea and requirements from [freeCodeCamp.org](https://www.freecodecamp.org/)
-* Text taken directly from [oxylabs.io]https://oxylabs.io/blog/python-syntax-errors for the "Common Syntax Errors" section.
-* Text taken directly from [wiki.python.org]https://wiki.python.org/moin/BeginnersGuide for all other sections.
+* Text taken directly from [oxylabs.io](https://oxylabs.io/blog/python-syntax-errors) for the "Common Syntax Errors" section.
+* Text taken directly from [wiki.python.org](https://wiki.python.org/moin/BeginnersGuide) for all other sections.
